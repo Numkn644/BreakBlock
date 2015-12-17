@@ -14,5 +14,9 @@ protected:
 public:
 	Object();
 	virtual ~Object();
+public:
+	Point getPoint(){ return m_position; }
+	int getImageWidth(){ return m_imageWidth; }
+	int getImageHeight(){ return m_imageHeight; }
 };
 

@@ -13,4 +13,5 @@ public:
 	void move();
 	void reflect();
 	void draw();
+	bool collision(Object other);
 };

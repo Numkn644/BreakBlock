@@ -28,4 +28,5 @@ protected:
 	virtual void move() = 0;
 	virtual void reflect() = 0;
 	virtual void draw() = 0;
+	virtual bool collision(Object other) = 0; /* Õ“Ë”»’è */
 };

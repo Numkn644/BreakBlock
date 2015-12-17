@@ -48,3 +48,8 @@ void Normal_Ball::draw()
 {
 	DrawGraph(m_position.getX(), m_position.getY(), m_handle, TRUE);
 }
+
+bool Normal_Ball::collision(Object other)
+{
+	return true;
+}
